@@ -25,6 +25,7 @@ const AddCoffe = () => {
             title: "Coffe added succesfully!",
             text: "You clicked the button!",
             icon: "success",
+            timer: 1000
           });
         }
       });
@@ -81,8 +82,8 @@ const AddCoffe = () => {
           <fieldset className="fieldset bg-base-200 border-base-300 rounded-box border p-4">
             <label className="label">Category</label>
             <input
-              type="Category"
-              name="name"
+              type="text"
+              name="Category"
               className="input w-full"
               placeholder="Enter coffee category"
             />
